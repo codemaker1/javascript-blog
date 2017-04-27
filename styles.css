@@ -1,0 +1,24 @@
+.post-name
+{
+font-size:24pt;
+}
+
+.post-author
+{
+color:blue;
+}
+
+.post-content
+{
+color:green;
+}
+
+@media(max-width:980px)
+{
+  body{
+  margin:0px;
+  }
+  .post-content{
+  font-size: 18pt;
+  }
+}
